@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Taviraj';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.container {
+  border-left: 20px solid #ffffff;
+  border-bottom: 20px solid #ffffff;
+}
+
+.site-header {
+  background: #5BA4C8;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #ffffff;
+  width: calc(100% - 40px);
+  height: 52px;
+
+  position: fixed;
+  top: 0;
+
+  z-index: 10;
+}
+
+.main-nav {
+  position: relative;
+  top: -4px;
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+}
+
+.animated-link:hover {
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+  transition: .2s ease-in-out;
+}
+
+.program {
+  display: block;
+  height: 500px;
+  width: calc(100% - 20px);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.big-title {
+  position: relative;
+  top: 170px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+.mead {
+  text-align: center;
+  height: 300px;
+  width: auto;
+  position: relative;
+  top: 25%;
+  left: 45%;
+  z-index: 9;
+}
+
+#program001 {
+  background-color: #252E6F;
+  color: white;
+  border-top: 95px solid #fff;
+}
+
+#program002 {
+  background-color: #C6DEEC;
+}
+
+#program003 {
+  background-color: #252E6F;
+  color: white;
+}
+
+#program004 {
+  background-color: #C6DEEC;
+}
+
+#program005 {
+  background-color: #252E6F;
+  color: white;
+}
+
+
+
